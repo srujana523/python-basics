@@ -12,7 +12,7 @@ while True:
     else:
         print("Result:Tomorrow is a great day,Lets aim for more!")
     stay = input("Do you want to track for another day:Yes/No?")
-    if stay == "No":
+    if stay.capitalize() == "No":
         print("Okay,Bye!")
         break
 
