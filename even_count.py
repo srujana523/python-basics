@@ -1,0 +1,8 @@
+def count_even(arr):
+    count = 0
+    for i in arr:
+        if i%2 ==0:
+            count+=1
+    return count
+arr = list(map(int, input().split()))
+print(count_even(arr))
