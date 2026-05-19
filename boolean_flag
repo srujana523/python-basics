@@ -1,0 +1,9 @@
+def has_negative(arr):
+    found = False
+    for i in arr:
+        if i < 0:
+           found = True
+           break
+    return found
+arr = list(map(int,input().split()))
+print(has_negative(arr))
